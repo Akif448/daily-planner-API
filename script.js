@@ -12,9 +12,6 @@ function divChanger() {
 
         var timeBlock = parseInt($(this).attr("id"))
 
-        console.log(timeBlock)
-        console.log(this)
-
         //check current time and compare to numeric value id in each time-block; depending on time the
         //time block section will change color.
 
